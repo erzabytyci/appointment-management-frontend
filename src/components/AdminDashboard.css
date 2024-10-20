@@ -1,0 +1,93 @@
+.admin-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e7ff;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a1aff;
+    margin-top: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;
+}
+
+.action-button {
+    background-color: #90caf9;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.table-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #9898a3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #e57373;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.logout-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: rgb(56, 73, 172);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: auto;
+}
+
+.logout-button:hover {
+    background-color: #b0bece;
+}

@@ -1,0 +1,74 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0e7ff;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a1aff;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e0e7ff;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    width: 48%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1a66ff;
+  }
+  
+  .cancel-button {
+    background-color: #e0e7ff; 
+  }
+  
+  .cancel-button:hover {
+    background-color: #b3c2ff; 
+  }
+
+  .log {
+    background-color: #b3c2ff;
+    margin-left: 70px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #1a66ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
