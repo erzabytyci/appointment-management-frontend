@@ -1,0 +1,98 @@
+.doctor-container {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e7ff;
+    padding: 20px;
+}
+
+.dashboard-header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dashboard-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a1aff;
+    margin-bottom: 10px;
+}
+
+.dashboard-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.branches-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.branch-button {
+    background-color: #90caf9;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.branch-button:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.appointments-section {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.appointments-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1aff;
+    margin-bottom: 10px;
+}
+
+.appointments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.appointment-card {
+    background-color: #bbdefb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.logout-button3 {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(81, 73, 196);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: auto;
+}
+
+.logout-button3:hover {
+    background-color: #b0bece;
+}
